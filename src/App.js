@@ -13,7 +13,7 @@ import { FlowWalletConnectors } from "@dynamic-labs/flow";
 import { StarknetWalletConnectors } from "@dynamic-labs/starknet";
 import { CosmosWalletConnectors } from "@dynamic-labs/cosmos";
 import { MagicWalletConnectors } from "@dynamic-labs/magic";
-import { BloctoEvmWalletConnectors } from "@dynamic-labs/blocto";
+import { BloctoEvmWalletConnectors } from "@dynamic-labs/blocto-evm";
 
 function App() {
   return (
