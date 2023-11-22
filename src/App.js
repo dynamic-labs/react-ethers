@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <DynamicContextProvider
         settings={{
-          environmentId: "f0b977d0-b712-49f1-af89-2a24c47674da",
+          environmentId: "2762a57b-faa4-41ce-9f16-abff9300e2c9",
           walletConnectorExtensions: [EthersExtension],
           walletConnectors: [
             EthereumWalletConnectors,
