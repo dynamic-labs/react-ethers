@@ -1,12 +1,11 @@
 import "./App.css";
 
-import {
-  DynamicWidget,
-  DynamicContextProvider,
-} from "@dynamic-labs/sdk-react-core";
+import { DynamicContextProvider } from "@dynamic-labs/sdk-react-core";
 import { EthersExtension } from "@dynamic-labs/ethers-v5";
 
 import { EthereumWalletConnectors } from "@dynamic-labs/ethereum";
+
+import Main from "./Main";
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
           walletConnectors: [EthereumWalletConnectors],
         }}
       >
-        <DynamicWidget />
+        <Main />
       </DynamicContextProvider>
     </div>
   );
