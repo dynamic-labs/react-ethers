@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@dynamic-labs/ethereum": "^2.0.7",
-    "@dynamic-labs/ethers-v5": "^2.0.7",
+    "@dynamic-labs/ethereum": "*",
+    "@dynamic-labs/ethers-v5": "*",
     "@dynamic-labs/sdk-react-core": "*",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
